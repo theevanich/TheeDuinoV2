@@ -1,0 +1,9 @@
+# unwanted files from KICAD
+*.bak
+*.bck
+*.raw
+*.log
+*.dcm
+*.kicad_pcb-bak
+*autosave*
+

@@ -253,9 +253,9 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 4 5
 Title ""
-Date "lun. 30 mars 2015"
+Date ""
 Rev ""
 Comp ""
 Comment1 ""
@@ -263,28 +263,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1775 2025 2225 1575
-U 5A8ADEAA
-F0 "io" 60
-F1 "io.sch" 60
-$EndSheet
-$Sheet
-S 4050 2025 2225 1575
-U 5A8ADED7
-F0 "nRF52" 60
-F1 "nRF52.sch" 60
-$EndSheet
-$Sheet
-S 1750 3825 2250 1575
-U 5A8ADF8A
-F0 "stm32f105" 60
-F1 "stm32f105.sch" 60
-$EndSheet
-$Sheet
-S 4075 3825 2200 1575
-U 5A8ADFED
-F0 "power" 60
-F1 "power.sch" 60
-$EndSheet
+$Comp
+L STM32F105RCTx U?
+U 1 1 5A8AE7DC
+P 5850 3975
+F 0 "U?" H 3150 5900 50  0000 L BNN
+F 1 "STM32F105RCTx" H 8550 5900 50  0000 R BNN
+F 2 "LQFP64" H 8550 5850 50  0001 R TNN
+F 3 "" H 5850 3975 50  0001 C CNN
+	1    5850 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
